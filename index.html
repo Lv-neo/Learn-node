@@ -84,13 +84,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2><span id="安装node">安装node</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install node</span><br></pre></td></tr></table></figure>
+        <!-- toc -->
+<ul>
+<li><a href="#安装node">安装node</a></li>
+<li><a href="#设置阿里源">设置阿里源</a></li>
+</ul>
+<!-- tocstop -->
+<h2><span id="安装node">安装node</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install node</span><br></pre></td></tr></table></figure>
 <h2><span id="设置阿里源">设置阿里源</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org --global</span><br><span class="line">npm config set disturl https://npm.taobao.org/dist --global</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lv-neo.github.io/Learn-node/2018/11/20/registry/" data-id="cjop9sdyg000365izvu1r7cgf" class="article-share-link">Share</a>
+      <a data-url="https://lv-neo.github.io/Learn-node/2018/11/20/registry/" data-id="cjop9uex100038aizb5rmamj0" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Learn-node/tags/npm/">npm</a></li></ul>
@@ -124,7 +130,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>[toc]</p>
+        <!-- toc -->
+<ul>
+<li><a href="#install">install</a></li>
+<li><a href="#create-blog">create blog</a></li>
+<li><a href="#部署github仓库">部署Github仓库</a></li>
+<li><a href="#生成和部署">生成和部署</a></li>
+<li><a href="#toc">toc</a></li>
+</ul>
+<!-- tocstop -->
 <h2><span id="install">install</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 <h2><span id="create-blog">create blog</span></h2><p>创建一个你的博客文件夹(必须是空文件夹)，如放在桌面~/Desktop/hexo-blog，并进入这个文件夹,示例如下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd ~/Desktop/hexo-blog</span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">hexo generate          // hexo g 也可以</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
@@ -139,7 +153,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lv-neo.github.io/Learn-node/2018/11/20/Hexo/" data-id="cjop9sdy6000065izfdl7o3iq" class="article-share-link">Share</a>
+      <a data-url="https://lv-neo.github.io/Learn-node/2018/11/20/Hexo/" data-id="cjop9uex200048aizw93p8qq7" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Learn-node/tags/hexo/">hexo</a></li></ul>
@@ -173,14 +187,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>&lt;%- toc(page.content) %&gt;</p>
+        <!-- toc -->
+<ul>
+<li><a href="#安装gitbook">安装gitbook</a><ul>
+<li><a href="#npm-install">npm install</a></li>
+<li><a href="#usage">usage</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
 <h1><span id="安装gitbook">安装gitbook</span></h1><h2><span id="npm-install">npm install</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g gitbook-cli</span><br></pre></td></tr></table></figure>
 <h2><span id="usage">usage</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#init</span><br><span class="line">gitbook init</span><br><span class="line"></span><br><span class="line">#serve</span><br><span class="line">gitbook serve</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lv-neo.github.io/Learn-node/2018/11/20/gitbook/" data-id="cjop9sdyb000165iz7xcr6yhg" class="article-share-link">Share</a>
+      <a data-url="https://lv-neo.github.io/Learn-node/2018/11/20/gitbook/" data-id="cjop9uewf00008aizheuq3sdq" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Learn-node/tags/gitbook/">gitbook</a></li></ul>
